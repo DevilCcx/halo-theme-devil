@@ -37,7 +37,7 @@ general:
       name: blog_button_title
       label: 博客按钮名称
       type: text
-      default: 'Blog'
+      default: '文章'
     blog_button_description:
       name: blog_button_description
       label: 博客按钮描述
@@ -130,7 +130,7 @@ sns:
       label: RSS
       type: radio
       data-type: bool
-      default: true
+      default: false
       options:
         - value: true
           label: 开启
@@ -144,10 +144,10 @@ sns:
       name: github
       label: GitHub 链接
       type: text
-    google_plus:
-      name: google_plus
-      label: Google Plus
-      type: text
+#    google_plus:
+#      name: google_plus
+#      label: Google Plus
+#      type: text
     email:
       name: email
       label: Email
