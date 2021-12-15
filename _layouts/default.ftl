@@ -44,13 +44,9 @@
                 </script>
             </#if>
         </#if>
-        <script type="text/javascript" color="220,220,220" opacity='0.7' zIndex="-2" count="200"
-                src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
-        </script>
     </head>
 
     <body>
-
     <span class="mobile btn-mobile-menu">
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
